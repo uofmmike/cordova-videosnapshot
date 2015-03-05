@@ -119,7 +119,7 @@ limitations under the License.
 		textSize = [nstextSize intValue];
 	}
 
-    NSURL* url = [NSURL fileURLWithPath:source];
+    NSURL* url = [NSURL URLWithString:source];
     if (url == nil) {
     	[self fail:command withMessage:@"Unable to open path"];
     	return;
