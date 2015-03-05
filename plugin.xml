@@ -4,12 +4,12 @@
 xmlns:android="http://schemas.android.com/apk/res/android"
            id="com.sebible.cordova.videosnapshot"
       version="0.2.9">
-    <name>Video Snapshot</name>
+    <name>Video Snapshot-MM</name>
 
-    <description>Cordova Video Snapshot Plugin</description>
+    <description>Cordova Video Snapshot Plugin-MM</description>
     <license>Apache 2.0</license>
     <keywords>cordova,video,snapshot</keywords>
-    <repo>https://github.com/sebible/cordova-videosnapshot.git</repo>
+    <repo>https://github.com/uofmmike/cordova-videosnapshot.git</repo>
     <issue></issue>
 
    
