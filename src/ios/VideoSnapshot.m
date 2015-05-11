@@ -170,7 +170,10 @@ limitations under the License.
 		[jpgData writeToFile:path atomically:NO];
 
 		@synchronized (paths){
-			[paths addObject:path];
+            
+
+            NSString* fullPath = [NSString stringWithFormat:@"file://%@", path];
+			[paths addObject:fullPath];
 			if (paths.count == times.count) {
 				NSDictionary* ret = [NSDictionary dictionaryWithObjectsAndKeys:
 					[NSNumber numberWithBool:true], @"result", paths, @"snapshots", nil];
